@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+	height: 500px;
+	width: 750px;
+	padding: 20px;
+	margin: auto;
+	background-color: darkgray;
+}
+
+.Card {
+	width: 100px;
+	height: 150px;
+	background-color: aquamarine;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.Theme {
+	background-color: rgb(28, 238, 168);
+	border-radius: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 10s linear;
+	}
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
