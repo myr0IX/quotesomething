@@ -1,0 +1,19 @@
+{
+  "name": "quotesomething",
+  "version": "1.0.0",
+  "description": "generate sentence with zenquotes API (project for learn react, js and web)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/myr0IX/quotesomething.git"
+  },
+  "author": "myr0IX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myr0IX/quotesomething/issues"
+  },
+  "homepage": "https://github.com/myr0IX/quotesomething#readme"
+}
