@@ -3,24 +3,30 @@ import './App.css';
 
 function Button (prop) {
 	return (
-		<button>{prop.children}</button>
+		<button className='Btn Case'>{prop.children}</button>
 	)
 }
 
 export default function App() {
   return (
     <div className="App">
-		<Card />
+		<Card>Theme</Card>
+		<Card>Theme</Card>
+		<Card>Theme</Card>
+		<Card>Theme</Card>
+		<Card>Theme</Card>
+		<Card>Theme</Card>
+		<Card>Theme</Card>
     </div>
   );
 }
 
-function Card() {
+function Card(props) {
 	return (
 	  <div className="Card">
-		  <h2 className='Theme'>Thème</h2>
+		  <h2 className='Theme Case'>{props.children}</h2>
 		  <p>ceci est la desciption</p>
-		  <Button>Button</Button>
+		  <Button>Generate</Button>
 	  </div>
 	);
   }

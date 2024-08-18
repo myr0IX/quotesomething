@@ -3,26 +3,42 @@
 @tailwind utilities;
 
 .App {
-	height: 500px;
-	width: 750px;
-	padding: 20px;
-	margin: auto;
-	background-color: darkgray;
+	padding: 10px;
+	margin: 50px;
+	background-color: rgb(33, 33, 34);
+	display: flex;
+	justify-content: space-around;
+}
+
+.Btn {
+	background-color: rgb(44, 29, 73);
+	margin: 5px;
+	box-shadow: 1px 1px;
+}
+
+.Btn:active {
+	box-shadow: -1px -1px;
+}
+
+.Case {
+	border-radius: 10px;
+	padding: 5px;
 }
 
 .Card {
 	width: 100px;
 	height: 150px;
-	background-color: aquamarine;
+	margin: 5px;
+	background-color: rgb(56, 49, 70);
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	justify-content:space-between;
 	border-radius: 10px;
 }
 
 .Theme {
-	background-color: rgb(28, 238, 168);
-	border-radius: 10px;
+	background-color: rgb(53, 34, 78);
 }
 
 @media (prefers-reduced-motion: no-preference) {
