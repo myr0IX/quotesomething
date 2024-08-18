@@ -3,29 +3,33 @@ import './App.css';
 
 function Button (prop) {
 	return (
-		<button className='Btn Case'>{prop.children}</button>
+		<button className='Btn Case br'>{prop.children}</button>
 	)
 }
 
 export default function App() {
   return (
     <div className="App">
-		<Card>Theme</Card>
-		<Card>Theme</Card>
-		<Card>Theme</Card>
-		<Card>Theme</Card>
-		<Card>Theme</Card>
-		<Card>Theme</Card>
-		<Card>Theme</Card>
+		<Card title="Theme">ceci est la desciption : Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate perfecta ratione vieturo ante alia patriam esse convenit gloriosam.</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
+		<Card title="Theme">Theme</Card>
     </div>
   );
 }
 
 function Card(props) {
 	return (
-	  <div className="Card">
-		  <h2 className='Theme Case'>{props.children}</h2>
-		  <p>ceci est la desciption</p>
+	  <div className="Card br">
+		  <h3 className='Theme Case br'>{props.title}</h3>
+		  <p>{props.children}</p>
 		  <Button>Generate</Button>
 	  </div>
 	);
