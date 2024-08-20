@@ -14,8 +14,8 @@
 	background-color: rgb(226, 224, 224);
 	display: flex;
 	justify-content:flex-start;
-	overflow-y: hidden;
-	overflow-x: auto;
+	flex-wrap: wrap;
+	overflow: hidden;
 }
 
 .Case {
@@ -43,7 +43,6 @@
 	width: 400px;
     height: 500px;
     margin: 10px;
-
 
     overflow: hidden;
     display: flex;
