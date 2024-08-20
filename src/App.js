@@ -80,7 +80,7 @@ function Card(props) {
 			<button className="Card Btn br" onClick={getapi}>
 				<h3 className='Theme Case br'>{props.children}</h3>
 				{info && <h4>{info.name}: {info.id}</h4>}
-				{info && <img src={info.sprites.front_default}/>}
+				{info && <img src={info.sprites.front_default} alt={info.name}/>}
 			</button>
 		</div>
 	);
